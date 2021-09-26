@@ -1,0 +1,161 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+body{
+  padding: 20px;
+ 
+}
+
+.container{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+
+  
+}
+
+.game{
+
+}
+
+.timer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.man-score-word{
+  display: flex;
+}
+
+.score-word{
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.score{
+  font-size: 24px;
+}
+.word-container{
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.alphabet{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.letter{
+  border: 1px solid black;
+  margin: 3px;
+  font-size: 22px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 1px 1px rgb(145, 145, 145);
+
+}
+
+.letter:hover{
+  background-color: gainsboro;
+  cursor: pointer;
+}
+
+.hang{
+ 
+  width: 200px;
+  height: 300px;
+}
+
+.hang img{
+ 
+ 
+}
+
+.word{
+  border: 1px solid black;
+  margin: 3px;
+  font-size: 22px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 1px 1px rgb(145, 145, 145);
+}
+.categories{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.categories button{
+  font-size: 18px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.nextbtn{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.result{
+  text-align: center;
+}
+
+.points{
+  margin: 20px 0;
+  font-size: 20px;
+  
+}
+
+.result button{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+
+}
+
+.result button:hover, .nextbtn:hover, .categories button:hover{
+  background-color: rgb(240, 238, 238);
+}
